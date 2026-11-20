@@ -30,3 +30,10 @@ Ve svém žákovském repozitáři doporučujeme odstranit vše, co jste ze šab
 - Funkční `Vagrantfile` a vlastní instalační a konfigurační skripty, které automaticky připraví agenta.
 - V adresáři `Images/` snímky obrazovky dokazující **registraci hosta s vaším jedinečným názvem** a **funkční monitorování** (například aktuálně přijímaná data v Zabbixu).
 - Upravený `README.md` se stručným popisem postupu práce, způsobem spuštění a ověření výsledku. Můžete do něj přidat také vlastní tematický obrázek.   
+
+## Zdroje
+
+- [Zabbix 8.0 – instalace z oficiálních balíčků](https://www.zabbix.com/documentation/8.0/en/manual/installation/install/packages)
+- [Zabbix 8.0 – automatická registrace aktivního agenta](https://www.zabbix.com/documentation/8.0/en/manual/discovery/auto_registration)
+- [Zabbix 8.0 – parametry konfigurace Agent 2](https://www.zabbix.com/documentation/8.0/en/manual/concepts/agent2/agent2_params)
+- [Oficiální stránka ke stažení Zabbixu](https://www.zabbix.com/download)   
