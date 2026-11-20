@@ -1,5 +1,3 @@
-#!/usr/bin/env bash
-
 # Instalace nástroje pro uuidgen (sed je v Debianu nativně GNU sed)
 sudo apt-get update && sudo apt-get install -y uuid-runtime
 
@@ -19,5 +17,3 @@ sudo diff -u $ZBX_AGENT_CONF-orig $ZBX_AGENT_CONF
 
 # Restart služby zabbix-agent
 sudo systemctl restart zabbix-agent2.service
-
-# EOF
